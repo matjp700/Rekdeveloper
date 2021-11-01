@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <div>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AnimesWik</title>
+    </div>
+<style>
+        
+    body {margin: auto; width: 960px; background-color: rgb(25, 19, 49); background-image: url(../kimetsu/fundo2.0.png); background-size: cover; background-repeat: no-repeat;}
+
+    .ph1 {color:white; font-size: 26px;text-align: center;}
+
+    .video {position: absolute; top: 305px; left: 200px;}
+
+    .video2 {position: absolute; top: 1070px; left: 200px;}
+
+    .ph2 {color: black ;position: absolute; top: 826px; left: 340px; margin: auto;text-align: center; font-size: 26px;}
+      
+    .menu {position: absolute;color: white;top: 20px;left: 90%; border: none ;background-color: transparent; font-size: 50px;}
+
+    .menu:hover{transition: 0.2s ease-in;cursor: pointer;text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.3);filter:brightness(70%);}
+
+    .menu:active{}
+
+    .logo{position: absolute;top: 35px; left: 20px;background-image: url(android-chrome-512x512.png);background-size: 50px;background-repeat: no-repeat;padding:  25px; background-color: transparent;border: none;}
+
+    .logo:hover{transition: 0.2s ease-in;cursor: pointer;filter:brightness(70%);}
+
+    .logo:active{}
+ 
+</style>
+</head>
+<body>
+    <div class="video">
+        <iframe width="320%" height="390" src="https://www.youtube.com/embed/VIEfOczBk2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video2">
+        <iframe width="320%" height="390" src="https://www.youtube.com/embed/MWSR17vEVBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ph1">
+        <h1 class="h1">
+            Kimetsu No Yaiba 
+        </h1>
+        <hr>
+        <p>
+            Kimetsu no Yaiba, é uma série japonesa de mangá shōnen escrita e ilustrada por Koyoharu Gotōge. O mangá é serializado desde 15 de fevereiro de 2016 e foi encerrado em 18 de maio de 2020 na revista semanal Weekly Shōnen Jump, com seus capítulos sendo reunidos em 23 volumes tankōbon pela editora Shueisha.
+        
+        </p>
+        <hr>
+    </div>    
+    <div class="ph2">
+        <h1>
+            Shingeki No Kyojin
+        </h1>
+        <hr>
+        <p>
+            Shingeki no Kyojin também conhecido como Attack on Titan,<br> é uma série de mangá escrita e ilustrada por Hajime Isayama.
+        </p>
+        <hr>
+    </div>
+    <button class="logo" onclick="clicou_logo()"></button>
+    <button class="menu" onclick="clicou_menu()">...</button>
+    <script>
+        function clicou_menu() {
+            window.alert('não finalizado: Quem clicou nu botão é viado, é viado!')
+        }
+        function clicou_logo() {
+            window.alert('bom dia; não finalizado')
+        }
+    </script>    
+</body>
+</html>
